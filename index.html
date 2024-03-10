@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="https://i.ibb.co/VCfHLM5/Screenshot-2024-03-03-17-39-29-700-com-miui-gallery.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="color.css" class="changecss">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Kdam+Thmor+Pro&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <section class="width30">
+            
+            <div class="logo" data-aos="flip-up">
+                <a href="index.html"><span>M</span>aulik</a>
+            </div>
+            <div class="aside" data-aos="zoom-in">
+                <ul>
+                    <li class="i1"><a href="index.html" class="active"><i class="fa fa-house"></i>Home</a></li>
+                    <li class="i2"><a href="resume.html"><i class="fa-solid fa-briefcase"></i>Resume</a></li>
+                    <li class="i3"><a href="biodata.html"><i class="fa-solid fa-address-card"></i>Biodata</a></li>
+                    <li class="i4"><a href="gallery.html"><i class="fa-solid fa-image"></i>Gallery</a></li>
+                    <li class="i5"><a href="contact.html"><i class="fa-solid fa-phone"></i>Contact </a></li>
+                </ul>
+            </div>
+        </section>
+
+        <i class="fa-solid fa-bars" id="menubtn" onclick="menubtn()"></i>
+
+        <section id="opacity" onclick="opacity()">
+
+        <section class="width70">
+            <div id="navbar" data-aos="fade-down">
+                <div id="logomobile">
+                    <a href="index.html"><span>M</span>aulik</a>
+                </div>
+                <div class="navbtn">
+                  <a href="resume.html">Resume</a>
+                  <a href="gallery.html">Gallery</a>
+                  <a href="biodata.html">Biodata</a>
+                  <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        
+            <div id="hed1">
+            <div class="photo1" data-aos="zoom-in">
+                <div class="frame">
+                    <img src="https://i.ibb.co/tPNNgwq/IMG-20230422-160429.jpg" alt="myphoto">
+                </div>
+            </div>
+
+            <div class="information">
+                <div class="text1" data-aos="fade-down" data-aos-offset="0">Hello, it's me</div>
+                <div class="text2" data-aos="fade-right" data-aos-offset="0">Maulik Parmar</div>
+                <div class="text3" data-aos="fade-up" data-aos-offset="0">And i'm a <span class="multiple"></span></div>
+                <div class="text4" data-aos="fade-left" data-aos-offset="0">I design, develop, and maintain the electronic equipment and systems that power our modern world. Welcome to my corner of the internet. I'm glad you're here!</div>
+                <a href="biodata.html" data-aos="zoom-in" class="about-me" data-aos-offset="0">
+                    More About Me
+                </a>
+            </div>
+
+            <div class="photo" data-aos="zoom-in">
+                <div class="frame">
+                    <img src="https://i.ibb.co/tPNNgwq/IMG-20230422-160429.jpg" alt="myphoto">
+                </div>
+            </div>
+
+        </div>
+
+            <div id="box">
+
+                <div class="boxes" onclick="gallery()" data-aos="fade-up">
+                    <i class="fa-solid fa-image"></i>
+                    <p>Gallery</p>
+                    <div>You can watch some of my pictures here</div>
+                </div>
+
+                <div class="boxes" onclick="resume()" data-aos="fade-up">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <p>Resume</p>
+                    <div>It covers my Electronics professional career details</div>
+                </div>
+
+                <div class="boxes" onclick="biodata()" data-aos="fade-up">
+                    <i class="fa-solid fa-address-card"></i>
+                    <p>Biodata</p>
+                    <div>You can see my personal, family, education and some other details.</div>
+                </div>
+
+            </div>
+            
+            <footer>
+                <div>Copyright © 2024 Maulik Parmar</div>
+                <a href="index.html"><span>M</span>aulik</a>
+            </footer>
+
+        </section>
+        </section>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 80,
+            duration: 1000,
+        });
+    </script>
+</body>
+
+</html>
