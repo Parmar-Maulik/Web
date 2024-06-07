@@ -21,13 +21,13 @@ function biodata() {
     window.open("biodata.html", '_parent');
 }
 function phone() {
-    window.open("tel:8733825132", '_parent');
+    window.open("tel:7046508456", '_blank');
 }
 function email() {
-    window.open("mailto:parmarmaulik3821@gmail.com", '_parent');
+    window.open("mailto:parmarmaulik3821@gmail.com", '_blank');
 }
 function facebook() {
-    window.open("https://www.facebook.com/maulik.parmar.9699523", '_parent');
+    window.open("https://www.facebook.com/maulik.parmar.9699523", '_blank');
 }
 function instagram() {
     window.open("https://www.instagram.com/maulik9320/", '_blank');
